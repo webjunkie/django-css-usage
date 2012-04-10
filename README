@@ -1,0 +1,18 @@
+# Install
+
+Add to installed_apps:
+
+    INSTALLED_APPS += (...
+                       'css_usage'
+                       ...
+                       )
+                       
+Use command line with path to CSS file (whithin static files folder)
+
+    manage.py css_usage css/style.css
+    
+See results.
+
+# version 0.1 - 2012-04-10
+
+- only support for CSS classes for now
